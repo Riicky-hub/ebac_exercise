@@ -1,0 +1,8 @@
+.navegacao {
+    padding: 20px 0;
+    color: white;
+    &__links {
+        flex-direction: column;
+        align-items: end;
+    }
+}

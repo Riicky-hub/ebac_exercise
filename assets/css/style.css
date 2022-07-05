@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+
+.navegacao {
+  padding: 20px 0;
+  color: white;
+}
+.navegacao__links {
+  flex-direction: column;
+  align-items: end;
+}
+
+/*# sourceMappingURL=style.css.map */
