@@ -1,0 +1,32 @@
+.local {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    &__svg {
+        position: absolute;
+        left: 0;
+        height: 500px;
+        z-index: 1;
+    }
+    &__text {
+        width: 60%;
+        text-align: center;
+        z-index: 2;
+    }
+    &__subtitle {
+        @include subtitle;
+    }
+    &__p {
+        @include paragraph;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .local__svg {
+        height: 360px;
+    }
+    .local__text {
+        width: 90%;
+    }
+}

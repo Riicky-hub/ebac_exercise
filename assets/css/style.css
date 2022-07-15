@@ -30,27 +30,25 @@ body {
 }
 .showcase {
   margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 .showcase__title {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   text-align: start;
   font-weight: 600;
-  margin-bottom: 30px;
 }
 .showcase__p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 300;
   color: rgb(89, 89, 89);
   line-height: 34px;
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 25px;
+  margin: 30px 0;
 }
 .showcase__btn {
   padding: 10px 25px;
   border: 1px solid black;
   color: #3a93ff;
   background-color: rgba(0, 0, 0, 0);
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
@@ -68,6 +66,44 @@ body {
   }
   .showcase__title, .showcase__p {
     text-align: center;
+  }
+}
+.local {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+}
+.local__svg {
+  position: absolute;
+  left: 0;
+  height: 500px;
+  z-index: 1;
+}
+.local__text {
+  width: 60%;
+  text-align: center;
+  z-index: 2;
+}
+.local__subtitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.local__p {
+  font-size: 1.7rem;
+  font-weight: 300;
+  color: rgb(89, 89, 89);
+  line-height: 34px;
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .local__svg {
+    height: 360px;
+  }
+  .local__text {
+    width: 90%;
   }
 }
 
