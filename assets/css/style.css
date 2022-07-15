@@ -81,7 +81,7 @@ body {
   position: absolute;
   left: 0;
   height: 450px;
-  z-index: 1;
+  z-index: 0;
 }
 .local__text {
   width: 60%;
@@ -112,6 +112,13 @@ body {
 }
 .servicos {
   margin: 50px 0;
+  position: relative;
+}
+.servicos__svg {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  height: 400px;
 }
 .servicos__subtitle {
   font-size: 2.2rem;
@@ -137,7 +144,7 @@ body {
   position: absolute;
   font-size: 6rem;
   color: rgba(0, 0, 0, 0.15);
-  z-index: 1;
+  z-index: 0;
 }
 .servicos__cards--title {
   z-index: 2;
@@ -161,6 +168,9 @@ body {
 }
 .footer__title__color {
   color: #0074FF;
+}
+.footer__title:hover {
+  color: white;
 }
 .footer__p {
   color: white;

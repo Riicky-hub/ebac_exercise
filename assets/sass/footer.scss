@@ -13,6 +13,9 @@
         &__color {
             color: $color_blue;
         }
+        &:hover {
+            color: white;
+        }
     }
     &__p {
         color: white;
