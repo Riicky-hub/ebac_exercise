@@ -10,7 +10,7 @@
 .title {
     font-size: 2rem;
     &__color {
-        color: rgba(0, 116, 255, 1);
+        color: $color_blue;
     }
 }
 @media only screen and (min-width: 768px) {
