@@ -1,0 +1,29 @@
+.servicos {
+    margin: 50px 0;
+    &__subtitle {
+        @include subtitle;
+    }
+    &__p {
+        @include paragraph;
+    }
+    &__cards{
+        &--card {
+            margin: 5px 5px;
+            position: relative;
+            background-color: rgba(0, 116, 255, 1);
+            height: 350px;
+            color: white;
+        }
+        &--num {
+            position: absolute;
+            font-size: 6rem;
+            color: rgba(0,0,0,0.15);
+            z-index: 1;
+        }
+        &--title {
+            z-index: 2;
+            font-weight: bold;
+            margin: 65px 0 25px 15px;
+        }
+    }
+}
