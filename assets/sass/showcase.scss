@@ -8,6 +8,7 @@
     }
     &__p {
         @include paragraph;
+        text-align: start;
     }
     &__btn {
         padding: 10px 25px;

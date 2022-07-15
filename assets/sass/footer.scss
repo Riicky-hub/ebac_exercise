@@ -1,0 +1,21 @@
+.footer {
+    background-color: black;
+    padding: 25px 0;
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__title {
+        font-size: 2rem;
+        text-decoration: none;
+        color: white;
+        &__color {
+            color: $color_blue;
+        }
+    }
+    &__p {
+        color: white;
+        margin: 0;
+    }
+}

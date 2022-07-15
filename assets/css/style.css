@@ -44,6 +44,7 @@ body {
   line-height: 34px;
   margin: 30px 0;
   text-align: center;
+  text-align: start;
 }
 .showcase__btn {
   padding: 10px 25px;
@@ -142,6 +143,28 @@ body {
   z-index: 2;
   font-weight: bold;
   margin: 65px 0 25px 15px;
+}
+
+.footer {
+  background-color: black;
+  padding: 25px 0;
+}
+.footer__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__title {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.footer__title__color {
+  color: #0074FF;
+}
+.footer__p {
+  color: white;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
