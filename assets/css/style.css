@@ -1,14 +1,31 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .navegacao {
   padding: 20px 0;
   color: white;
+  background-color: white !important;
 }
 .navegacao__links {
   flex-direction: column;
   align-items: end;
+}
+
+.title {
+  font-size: 2rem;
+}
+.title__color {
+  color: rgb(0, 116, 255);
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-expand-sm .navbar-nav .nav-link {
+    margin: 0 2rem;
+  }
+  .nav-link:nth-child(3) {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

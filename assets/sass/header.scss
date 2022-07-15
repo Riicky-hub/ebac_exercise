@@ -1,8 +1,23 @@
 .navegacao {
     padding: 20px 0;
     color: white;
+    background-color: white !important;
     &__links {
         flex-direction: column;
         align-items: end;
+    }
+}
+.title {
+    font-size: 2rem;
+    &__color {
+        color: rgba(0, 116, 255, 1);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        margin: 0 2rem;
+    }
+    .nav-link:nth-child(3) {
+        margin: 0;
     }
 }
