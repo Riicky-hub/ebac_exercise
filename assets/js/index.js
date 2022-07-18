@@ -1,3 +1,5 @@
+//AOS 
+AOS.init();
 //Geolocaliton
 if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showLocation);

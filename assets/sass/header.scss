@@ -13,6 +13,20 @@
         color: $color_blue;
     }
 }
+.nav {
+    &__link {
+        &:hover {
+            .nav__icon {
+                color: $color_blue;
+            }
+        }
+    }
+    &__icon {
+        color: transparent;
+        font-size: 1rem;
+        transition: 0.5s all ease-in-out;
+    }
+}
 @media only screen and (min-width: 768px) {
     .navbar-expand-sm .navbar-nav .nav-link {
         margin: 0 2rem;

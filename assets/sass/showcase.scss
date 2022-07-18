@@ -16,6 +16,11 @@
         color: #3a93ff;
         background-color: rgba($color: #000000, $alpha: 0);
         font-weight: bold;
+        transition: 0.5s all ease-in-out;
+        &:hover {
+            box-shadow: 0 0 1em $color_blue;
+            text-shadow: 0 0 1em $color_blue;
+        }
     }
 }
 @media only screen and (max-width: 768px) {
